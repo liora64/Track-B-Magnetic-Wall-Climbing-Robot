@@ -71,37 +71,20 @@ Track B - Permanent Magnet Wall-Climbing Robot Project
 | W5 | 结构改型、对照实验、可靠性测试 | 版本差异、性能曲线        |
 | W6 | 最终测试、项目整理、交叉答辩  | 完整仓库、报告、个人贡献证明   |
 
-## 5. 仓库目录规划
+## 5. 仓库目录
 
 ```text
 Track-B-Magnetic-Wall-Climbing-Robot/
-│
 ├── README.md
-│
-├── docs/                   # 项目文档
-│   ├── weekly/             # 每周任务与周报
-│   ├── design/             # 方案设计
-│   ├── research/           # 开源项目调研
-│   ├── safety/             # 安全检查与风险记录
-│   └── reports/            # 项目报告
-│
-├── cad/                    # 机械结构与3D模型
-│   ├── original/           # 原始参考模型
-│   └── modified/           # 自主修改模型
-│
-├── hardware/               # 硬件资料
-│   ├── bom/                # 物料清单
-│   ├── circuit/            # 电路与接线图
-│   └── datasheets/         # 元器件数据手册
-│
-├── firmware/               # ESP32控制程序
-│
-├── tests/                  # 模块测试与实验方案
-│
-├── data/                   # 原始实验数据
-│
-└── analysis/               # Python数据分析与图表
-```
+├── LICENSE                 # 本组代码与文档的许可（MIT）
+├── LICENSES/               # 第三方开源引用与许可记录
+├── docs/                   # 任务书、系统图、力链估算、资源核查、决策记录
+├── hardware/               # BOM、接线图、器件规格书
+├── cad/                    # STEP/STL、装配图、打印参数
+├── firmware/               # ESP32 固件、引脚表、烧录说明
+├── tests/                  # 测试脚本、验收步骤、测试记录
+├── data/                   # 原始 CSV，不加工
+└── reports/                # 周报、实验记录、失败复盘
 
 ## 6. 团队协作规范
 
